@@ -1,0 +1,71 @@
+# Copyright (C) 2018 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: issue watcher\n"
+"Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
+"POT-Creation-Date: 2018-11-22 17:31+0900\n"
+"PO-Revision-Date: 2018-11-22 17:38+0900\n"
+"Last-Translator: \n"
+"Language-Team: akihiro kato\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: issue-watcher.php:53
+msgid "Issue Watcher"
+msgstr ""
+
+#: issue-watcher.php:78
+msgid "There is no minimum setting(TeamName, Apikey, ProjectId)."
+msgstr ""
+
+#: issue-watcher.php:165
+msgid "Backlog TeamName"
+msgstr "チーム名"
+
+#: issue-watcher.php:170
+msgid "Backlog Apikey"
+msgstr "APIキー"
+
+#: issue-watcher.php:175
+msgid "Backlog ProjectId"
+msgstr "プロジェクトID"
+
+#: issue-watcher.php:180
+msgid "Backlog List Count"
+msgstr "チケット表示件数"
+
+#: issue-watcher.php:186
+msgid "Backlog Status"
+msgstr "ステータス"
+
+#: issue-watcher.php:188
+msgid "All"
+msgstr "すべて"
+
+#: issue-watcher.php:189
+msgid "Not compatible"
+msgstr "未対応"
+
+#: issue-watcher.php:190
+msgid "rocessing"
+msgstr "処理中"
+
+#: issue-watcher.php:191
+msgid "Processed"
+msgstr "処理済み"
+
+#: issue-watcher.php:192
+msgid "Done"
+msgstr "完了"
+
+#: issue-watcher.php:193
+msgid "Other than completion"
+msgstr "完了以外"

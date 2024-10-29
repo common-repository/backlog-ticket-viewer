@@ -1,0 +1,136 @@
+#backlog_ticket_viewer .btv_info{
+	display: table;
+	width: 100%;
+	vertical-align: top;
+	margin-bottom: 1em;
+}
+#backlog_ticket_viewer .btv_info p{
+	display: table-cell;
+	width: 48%;
+	padding: 0 2% 0 0;
+	margin: 0;
+	vertical-align: top;
+	position: relative;
+}
+
+#backlog_ticket_viewer .btv_info p .dashicons{
+	display: inline-block;
+	color: #82878c;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	width: 20px;
+	top: 0;
+	left: 0;
+}
+
+#backlog_ticket_viewer .btv_info p .content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 25px;
+}
+
+#backlog_ticket_viewer .btv_info .btv_pjtname,
+#backlog_ticket_viewer .btv_info strong {
+	font-weight: bold;
+}
+
+
+#backlog_ticket_viewer .btv_no_settings {
+	color: red;
+}
+
+#backlog_ticket_viewer #btv_list ul {
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0.25em 0 0 0;
+}
+
+#backlog_ticket_viewer #btv_list ul li {
+	display: table-row;
+	margin: 0;
+}
+
+#backlog_ticket_viewer #btv_list ul li span {
+	display: table-cell;
+	/*padding: 0.25em 0.25em 0.25em 0.25em 0;*/
+	width: auto;
+}
+
+#backlog_ticket_viewer #btv_list ul li:first-child {
+	font-weight: bold;
+}
+
+#backlog_ticket_viewer #btv_list ul li span:last-child {
+	padding-left: 0;
+}
+
+#backlog_ticket_viewer span.btv_must{
+	color: red;
+	margin: 0 0.25em;
+}
+
+#backlog_ticket_viewer span.btv_label_setting_title {
+	font-weight: bold;
+}
+
+#backlog_ticket_viewer input.btv_input_team_name {
+	width: 300px;
+}
+
+#backlog_ticket_viewer input.btv_input_apikey {
+	width: 300px;
+}
+
+#backlog_ticket_viewer input.btv_input_project_id {
+	width: 300px;
+}
+
+#backlog_ticket_viewer input.btv_input_count {
+	width: 300px;
+}
+
+/* list view */
+#backlog_ticket_viewer #btv_list ul li {
+	background-color: #f7f7f7;
+	padding: 0 0.25em !important;
+}
+#backlog_ticket_viewer #btv_list ul li:nth-child(odd) {
+	background-color: #fff;
+}
+
+
+#backlog_ticket_viewer #btv_list ul li span {
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-right: 1em;
+}
+#backlog_ticket_viewer #btv_list ul li span:first-child  {
+	padding-left: 0.3em;
+}
+#backlog_ticket_viewer #btv_list ul li span:last-child  {
+	padding-right: 0.3em;
+}
+#backlog_ticket_viewer #btv_list ul li span.btv_status {
+	width: 4em;
+}
+#backlog_ticket_viewer #btv_list ul li span.btv_title {
+	width: 220px;
+}
+#backlog_ticket_viewer #btv_list ul li span.btv_assign {
+	width: 5em;
+	word-break: break-all;
+}
+
+.btv_setting_title{
+	font-weight: bold;
+	padding-right: 1em;
+}
+.btv_feildname{
+	display: inline-block;
+	width: 120px;
+	font-weight: bold;
+	margin-right: 0.5em;
+}
